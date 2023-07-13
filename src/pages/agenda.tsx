@@ -89,6 +89,7 @@ class AgendaPage extends React.Component<AgendaPageProps> {
               s => s.type === SponsorType.Gold || s.type === SponsorType.Platinum,
             )}
           />
+          {/* TODO: Fix this, it isn't linking correctly */}
           <AllAgendas
             conference={this.props.pageMetadata.conference}
             conferenceInstance={this.props.pageMetadata.conference.Instance}

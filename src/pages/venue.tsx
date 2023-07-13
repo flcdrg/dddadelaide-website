@@ -32,7 +32,7 @@ class VenuePage extends React.Component<WithPageMetadataProps> {
         <div className="container">
           <h1>Venue</h1>
           <p>
-            {conference.Name} will be held at {conference.Venue.Name} at{' '}
+            {conference.Name} will be held at {conference.Venue.Name} located at{' '}
             <SafeLink
               href={'https://www.google.com.au/maps/place/' + encodeURIComponent(conference.Venue.Name)}
               target="_blank"

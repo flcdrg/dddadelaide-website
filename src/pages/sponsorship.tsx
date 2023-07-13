@@ -55,13 +55,13 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     </p>
 
     <p>
-      2019 is the inaugural year of this incarnation of DDD Adelaide. We are aiming for an attendance of 120 for the
-      first year, with our focus on creating a great conference experience for attendees and sponsors.
+      DDD Adelaide 2023 is the follow-up to our successful inaugural event in 2019. With over 150 attendees, the
+      first year, we achieved our goal of creating a great conference experience for attendees and sponsors with strong positive feedback
+      from all.
     </p>
 
     <p>
-      Our sister conference, DDD Perth, in 2018 had 470 attendees from 510 sold tickets; making it the biggest software
-      conference in Western Australia with a 2019 target of 800 attendees.
+      Our sister conference, DDD Perth, routinely attracts almost 1000 attendees, making it the largest software conference in Western Australia.
     </p>
 
     <p>
