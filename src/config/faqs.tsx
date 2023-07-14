@@ -278,13 +278,6 @@ export default function getFaqs(dates: Dates): FAQ[] {
             </SafeLink>
           </li>
         </ul>
-        <p>
-          Furthermore, you can see an up to date list of Australian conferences at{' '}
-          <SafeLink href="https://github.com/readify/devevents" target="_blank">
-            Readify's DevEvents repository
-          </SafeLink>
-          .
-        </p>
       </Fragment>
     ),
   })
@@ -294,10 +287,8 @@ export default function getFaqs(dates: Dates): FAQ[] {
     AnswerWithoutParagraph: (
       <Fragment>
         <p>
-          {Conference.Name} {Conference.Instance} has been organized by Andrew Best and David Gardiner, with support
-          from the broader DDD Australia community including Melbourne, Sydney, Brisbane, and Perth. {Conference.Name}{' '}
-          {Conference.Instance} has been generously supported by DDD WA Inc. a non-profit organisation set up to create
-          inclusive events for the WA and SA software community.
+          {Conference.Name} {Conference.Instance} has been organized by Andrew Best, Claire Webber, David Gardiner, Harnoor Bandesh, Isaac Mann, and Will Turner, with support
+          from the broader DDD Australia community including Melbourne, Sydney, Brisbane, and Perth.
         </p>
         <ul>
           <li>
@@ -306,9 +297,27 @@ export default function getFaqs(dates: Dates): FAQ[] {
             </SafeLink>
           </li>
           <li>
+            <SafeLink href="https://twitter.com/ClaireLWebber" target="_blank">
+              Claire Webber
+            </SafeLink>
+          </li>
+          <li>
             <SafeLink href="https://twitter.com/davidrgardiner" target="_blank">
               David Gardiner
             </SafeLink>
+          </li>
+          <li>
+            <SafeLink href="https://twitter.com/HBandesh " target="_blank">
+              Harnoor Bandesh
+            </SafeLink>
+          </li>
+          <li>
+            <SafeLink href="https://twitter.com/imann04" target="_blank">
+              Isaac Mann
+            </SafeLink>
+          </li>
+          <li>
+            Will Turner
           </li>
         </ul>
         <p>Furthermore, we have many others who volunteer and assist with organization.</p>
