@@ -32,54 +32,14 @@ class VenuePage extends React.Component<WithPageMetadataProps> {
         <div className="container">
           <h1>Venue</h1>
           <p>
-            {conference.Name} will be held at {conference.Venue.Name} located at{' '}
+            {conference.Name} will take place at {conference.Venue.Name} utilising the Horace Lamb lecture theatre, Barr Smith South rooms and the Atrium. The venue is located at{' '}
             <SafeLink
               href={'https://www.google.com.au/maps/place/' + encodeURIComponent(conference.Venue.Name)}
               target="_blank"
             >
-              {conference.Venue.Address}
-            </SafeLink>
-            . Additional venue information can be found on the{' '}
-            <SafeLink href="https://mod.org.au/visit/getting-here/" target="_blank">
-              MOD. website.
-            </SafeLink>
-            This venue has been kindly provided by{' '}
-            <SafeLink
-              href="https://www.unisa.edu.au/IT-Engineering-and-the-Environment/Information-Technology-and-Mathematical-Sciences/"
-              target="_blank"
-            >
-              The University of South Australia's School of Information Technology and Mathematical Sciences
+              {conference.Venue.Address}.
             </SafeLink>
           </p>
-        </div>
-        <div id="map" aria-hidden>
-          <div id="map-view">
-            <GoogleMapReact
-              bootstrapURLKeys={{
-                key: 'AIzaSyACDtKFE3lyOOmHpMeUoJsYqaVY2fcaa9o',
-              }}
-              options={
-                {
-                  mapTypeControl: false,
-                  minZoomOverride: false,
-                  panControl: false,
-                  scrollwheel: false,
-                  zoomControl: false,
-                } as any
-              }
-              center={{
-                lat: conference.Venue.Latitude,
-                lng: conference.Venue.Longitude,
-              }}
-              zoom={17}
-              yesIWantToUseGoogleMapApiInternals={true}
-              onGoogleApiLoaded={this.handleGoogleMapApi.bind(this)}
-            />
-          </div>
-          <div id="map-overlay">
-            <h2>{conference.Venue.Name}</h2>
-            <h3>{conference.Venue.Address}</h3>
-          </div>
         </div>
         <section className="right-sidebar" id="travelinfo">
           <div className="container directions equal-heights">
