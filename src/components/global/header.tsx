@@ -33,7 +33,7 @@ const Header: StatelessComponent<HeaderArgs> = ({ isHome, hideBanner, conference
               {!conference.HideDate && !dates.IsComplete && ' & will be held on ' + dates.Display}.<br />
               <br />
               {conference.Goal} See our{' '}
-              <Link href="/src/pages/code-of-conduct">
+              <Link href="/code-of-conduct">
                 <a>Code of Conduct</a>
               </Link>
               .

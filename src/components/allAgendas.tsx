@@ -28,7 +28,7 @@ const AllAgendas = ({ conference, conferenceInstance, dates }: AllAgendasProps) 
         ))}
         {dates.AgendaPublished && ' | '}
         {dates.AgendaPublished && conferenceInstance !== conference.Instance && (
-          <Link href="/src/pages/agenda">
+          <Link href="/agenda">
             <a>{conference.Instance}</a>
           </Link>
         )}

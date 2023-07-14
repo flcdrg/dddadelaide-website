@@ -131,7 +131,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
       <Fragment>
         {dates.RegistrationOpen ? (
           <Fragment>
-            Now! Go to <a href="/src/pages/tickets">the tickets page</a> to register.
+            Now! Go to <a href="/tickets">the tickets page</a> to register.
           </Fragment>
         ) : Conference.TicketPurchasingOptions === TicketPurchasingOptions.SoldOut ? (
           <Fragment>The conference is now sold out.</Fragment>

@@ -43,7 +43,7 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       </li>
     </ul>
     <p>
-      <Link href="/src/pages/about">
+      <Link href="/about">
         <a className="btn btn-secondary">Find out more about {props.pageMetadata.conference.Name}</a>
       </Link>
     </p>
