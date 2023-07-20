@@ -189,7 +189,7 @@ const agenda = (WrappedComponent: React.ComponentType<AgendaProps>, externalProp
     render() {
       return (
         <Fragment>
-          <p>Tap on a session to see more details...</p>
+          <p>Tap on a session to see more details.</p>
 
           <WrappedComponent {...this.props} SessionCell={this.getSessionCell()} />
 

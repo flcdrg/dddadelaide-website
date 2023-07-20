@@ -180,7 +180,7 @@ const dddAgendaPage = <TOriginalProps extends {}>(
         >
           <div className="container">
             <h1>{externalProps.conferenceInstance} Agenda</h1>
-            <p>Tap on a session to see more details...</p>
+            <p>Tap on a session to see more details.</p>
 
             <WrappedComponent {...this.props} SessionCell={this.getSessionCell()} />
 
