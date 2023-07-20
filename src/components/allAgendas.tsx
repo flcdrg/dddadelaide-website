@@ -12,7 +12,7 @@ interface AllAgendasProps {
 const AllAgendas = ({ conference, conferenceInstance, dates }: AllAgendasProps) =>
   conference.PreviousInstances.length === 0 ? null : (
     <Fragment>
-      <h2 className="text-center">All Agendas</h2>
+      <h2 className="text-center">Previous Agendas</h2>
       <p className="text-center">
         {conference.PreviousInstances.map((instance, i) => (
           <Fragment key={instance}>

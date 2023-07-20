@@ -83,8 +83,8 @@ if (!hideDate) {
 const Conference: IConference = {
   Name: name,
   Instance: currentInstance.toString(),
-  PreviousInstance: (currentInstance - 1).toString(),
-  PreviousInstances: [...Array(currentInstance - firstInstance).keys()].map((_, i) => (firstInstance + i).toString()),
+  PreviousInstance: "2019",
+  PreviousInstances: ["2019"],
   Organiser: {
     Name: 'DDD Adelaide',
     Url: '',
