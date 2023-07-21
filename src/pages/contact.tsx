@@ -38,13 +38,13 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
           props.pageMetadata.conference.EmergencyContactPhoneNumber}
       </li>
     </ul>
-    <h2>DDD WA Inc.</h2>
+    <h2>DDD Adelaide Inc</h2>
     <ul>
       <li>
-        <strong>ABN:</strong> 61 201 381 758
+        <strong><abbr title="Australian Business Number">ABN:</abbr></strong> 77 632 720 298
       </li>
       <li>
-        <strong>Postal Address:</strong> PO Box 7550, Perth WA 6000
+        <strong>Postal Address:</strong> <address>PO Box 3131 Rundle Mall SA 5000</address>
       </li>
     </ul>
   </Page>
