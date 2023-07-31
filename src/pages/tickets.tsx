@@ -30,7 +30,7 @@ class TicketPage extends React.Component<WithPageMetadataProps> {
         // need to include this script <script src='https://js.tito.io/v1' async></script>
         const script = document.createElement('script')
         script.type = 'text/javascript'
-        script.src = 'https://js.tito.io/v1'
+        script.src = 'https://js.tito.io/v2'
         script.async = true
         document.body.appendChild(script)
       }
