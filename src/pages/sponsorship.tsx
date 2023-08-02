@@ -4,7 +4,7 @@ import withPageMetadata, { WithPageMetadataProps } from '../components/global/wi
 import Page from '../layouts/withSidebar'
 
 export default withPageMetadata((props: WithPageMetadataProps) => (
-  <Page pageMetadata={props.pageMetadata} title="Sponsorship" description="Sponsorship opportunities for DDD Perth.">
+  <Page pageMetadata={props.pageMetadata} title="Sponsorship" description="Sponsorship opportunities for DDD Adelaide.">
     <h1>Sponsorship</h1>
 
     <p>
