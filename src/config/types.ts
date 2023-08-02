@@ -32,6 +32,7 @@ export interface Conference {
   ContactEmail: string
   SponsorshipEmail: string
   MentoringEmail: string
+  FinancialAssistanceEmail: string
   EmergencyContactName: string
   EmergencyContactPhoneNumber: string
   MediaOfficerName: string
