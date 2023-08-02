@@ -113,6 +113,7 @@ const Conference: IConference = {
   ContactEmail: 'info@dddadelaide.com',
   SponsorshipEmail: 'sponsorship@dddadelaide.com',
   MentoringEmail: 'mentors@dddadelaide.com',
+  FinancialAssistanceEmail: 'financialassistance@dddadelaide.com',
   EmergencyContactName: 'Andrew Best',
   EmergencyContactPhoneNumber: '0438 080 385',
   MediaOfficerName: null,

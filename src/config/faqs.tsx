@@ -45,27 +45,9 @@ export default function getFaqs(dates: Dates): FAQ[] {
           Adelaide is donating 10 such tickets and we also have an option for people within the community to donate
           further tickets. The only requirement for eligibility is that you can't afford the ticket; you can access the
           Financial Assistance tickets by{' '}
-          {Conference.TicketsProviderId === TicketsProvider.Eventbrite ? (
-            <>
-              entering the promotional code of <code>{Conference.TicketsProviderFinancialAssistanceCode}</code>
-            </>
-          ) : (
-            <>
-              <SafeLink
-                href={
-                  'https://ti.to/' +
-                  Conference.TicketsProviderAccountId +
-                  '/' +
-                  Conference.TicketsProviderEventId +
-                  '/discount/' +
-                  Conference.TicketsProviderFinancialAssistanceCode
-                }
-                target="_blank"
-              >
-                following this link
-              </SafeLink>
-            </>
-          )}
+          <a className="maillink" href={'mailto:' + Conference.FinancialAssistanceEmail}>
+            contacting us
+          </a>
           .
         </p>
         <ul>
@@ -306,7 +288,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
             </SafeLink>
           </li>
           <li>
-            <SafeLink href="https://twitter.com/HBandesh " target="_blank">
+            <SafeLink href="https://twitter.com/HBandesh" target="_blank">
               Harnoor Bandesh
             </SafeLink>
           </li>
