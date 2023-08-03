@@ -1,0 +1,16 @@
+on:
+#  schedule:
+#    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+name: Check links
+jobs:
+  my-broken-link-checker:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://dddadelaide.com
+          cmd_params: " --color=always"
