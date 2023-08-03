@@ -191,9 +191,9 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
     <p>
       This Code of Conduct was based on{' '}
       <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">The Geek Feminism wiki</a>, the
-      work of <a href="https://frameshiftconsulting.com/code-of-conduct-training/">Valerie Aurora</a>, the{' '}
-      <a href="https://2018.jsconfau.com/code-of-conduct">JSConf AU Code of Conduct</a>, the{' '}
-      <a href="https://www.levelsconf.com/codeofconduct.html">Levels Conference Code of Conduct</a>, and the{' '}
+      work of <a href="https://frameshiftconsulting.com/resources/code-of-conduct-book/">Valerie Aurora</a>, the{' '}
+      <a href="https://web.archive.org/web/20181117095431/http://2018.jsconfau.com/code-of-conduct">JSConf AU Code of Conduct</a>, the{' '}
+      <a href="https://web.archive.org/web/20220331034612/https://www.levelsconf.com/codeofconduct.html">Levels Conference Code of Conduct</a>, and the{' '}
       <a href="http://confcodeofconduct.com/">Conference Code of Conduct</a>.
     </p>
 
