@@ -9,29 +9,24 @@ export default function getFaqs(dates: Dates): FAQ[] {
   const hasAfterparty = Conference.Venue.Afterparty !== null
 
   if (!Conference.HideDate) {
-    const afterpartyBlurb = ` followed by the afterparty ${
-      Conference.HideAfterpartyVenue ? '' : ' at ' + Conference.Venue.Afterparty
-    }`
+    const afterpartyBlurb = ` followed by the afterparty ${Conference.HideAfterpartyVenue ? '' : ' at ' + Conference.Venue.Afterparty
+      }`
 
     Faqs.push({
       Question: 'When and where is it?',
-      Answer: `The event ${dates.IsComplete ? 'was' : 'will be'} held on ${dates.Display}${
-        Conference.HideVenue ? '' : ' at ' + Conference.Venue.Name
-      }.
-          Doors ${dates.IsComplete ? 'opened' : 'will open'} at ${Conference.DoorsOpenTime} and ${
-        dates.IsComplete ? 'we finished' : "we'll finish"
-      } at ${Conference.FinishTime}${hasAfterparty ? afterpartyBlurb : ''}.`,
+      Answer: `The event ${dates.IsComplete ? 'was' : 'will be'} held on ${dates.Display}${Conference.HideVenue ? '' : ' at ' + Conference.Venue.Name
+        }.
+          Doors ${dates.IsComplete ? 'opened' : 'will open'} at ${Conference.DoorsOpenTime} and ${dates.IsComplete ? 'we finished' : "we'll finish"
+        } at ${Conference.FinishTime}${hasAfterparty ? afterpartyBlurb : ''}.`,
     })
   }
 
   Faqs.push({
     Question: 'How much does it cost to attend?',
-    Answer: `${Conference.TicketPrice} covers your entry, food and coffee all day${
-      hasAfterparty ? ' and access to the afterparty' : ''
-    }! Amazing value right!?
+    Answer: `${Conference.TicketPrice} covers your entry, food and coffee all day${hasAfterparty ? ' and access to the afterparty' : ''
+      }! Amazing value right!?
       We are able to keep the ticket price so low thanks to our generous sponsors.
-      ${
-        Conference.Name
+      ${Conference.Name
       } is a non profit event and any excess will be kept as part of a fund for future events and/or donated to charity.`,
     Category: 'tickets',
   })
@@ -168,7 +163,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
     Answer: (
       <Fragment>
         Media personnel authorised by {Conference.Name} will be in attendance. These media personnel will respect the
-        photo policy as defined in the <a href="/src/pages/code-of-conduct#photo-policy">Code of Conduct</a>.
+        photo policy as defined in the <a href="code-of-conduct#photo-policy">Code of Conduct</a>.
       </Fragment>
     ),
   })
