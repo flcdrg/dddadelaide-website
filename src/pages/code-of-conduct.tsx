@@ -186,6 +186,24 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       <a href="http://geekfeminism.wikia.com/wiki/Nonsexist_language">Geek Feminism wiki guide</a>.
     </p>
 
+
+    <h2 id="photo-policy">Photo Policy</h2>
+
+    <p>We will have coloured lanyards for attendees to indicate their comfort level with being photographed:</p>
+    <ul>
+      <li>
+        <strong>Black:</strong> fine to photograph
+      </li>
+      <li>
+        <strong>Red:</strong> do not photograph
+      </li>
+    </ul>
+
+    <p>
+      In case of any doubt, please ask before taking photographs of attendees, speakers or {props.pageMetadata.conference.Name} team
+      members.
+    </p>
+
     <h2>Attribution</h2>
 
     <p>
@@ -197,6 +215,6 @@ export default withPageMetadata((props: WithPageMetadataProps) => (
       <a href="http://confcodeofconduct.com/">Conference Code of Conduct</a>.
     </p>
 
-    <p>Last update: 30 July 2019</p>
+    <p>Last update: 3rd August 2023</p>
   </Page>
 ))
