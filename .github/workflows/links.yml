@@ -12,5 +12,5 @@ jobs:
       - name: Check
         uses: ruzickap/action-my-broken-link-checker@v2
         with:
-          url: https://dddadelaide.com
-          cmd_params: " --color=always"
+          url: https://dddadelaide-website-test.azurewebsites.net
+          cmd_params: "--buffer-size=8192 --color=always"
