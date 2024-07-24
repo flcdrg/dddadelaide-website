@@ -1,0 +1,4 @@
+properties:
+  template:
+    scale:
+      minReplicas: 1
