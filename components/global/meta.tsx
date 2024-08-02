@@ -29,9 +29,9 @@ export const Meta = ({ pageTitle, pageDescription, pageImage }: MetaArgs) => {
   const { pathname } = useRouter()
   const conferenceDates = getConferenceDates(conference, dateTimeProvider.now())
   const ogImage =
-    pageImage || conference.Instance !== '2022' || conferenceDates.IsComplete
-      ? '/static/images/logo.png'
-      : '/static/images/logo-2022-og.jpg'
+    pageImage || conference.Instance !== '2024' || conferenceDates.IsComplete
+      ? '/static/images/adelaide/logo.png' // generic image
+      : '/static/images/adelaide/logo-square-withtext.png' // date-branded image
 
   const title = React.useMemo(
     () =>
