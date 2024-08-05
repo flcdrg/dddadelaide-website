@@ -84,14 +84,7 @@ const communityPartners: Sponsor[] = [
     url: 'https://www.quoterite.com.au/',
   },
   {
-    id: 'landServices',
-    imageUrl: '/static/images/sponsors/lssa.png',
-    name: 'Land Services SA',
-    type: SponsorType.Community,
-    url: 'https://www.landservices.com.au/',
-  },
-  {
-    id: 'alignet',
+    id: 'aligent',
     imageUrl: '/static/images/sponsors/aligent.png',
     name: 'Aligent',
     type: SponsorType.Community,
