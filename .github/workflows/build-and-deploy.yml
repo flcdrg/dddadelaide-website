@@ -104,4 +104,5 @@ jobs:
           targetPort: 3000
           ingress: external
           disableTelemetry: true
-          yamlConfigPath: ${{ github.workspace }}/website-configuration.yaml
+          # Removing the below as it is stopping the action deploying new container revisions. Will revisit at some point.
+          # yamlConfigPath: ${{ github.workspace }}/website-configuration.yaml
