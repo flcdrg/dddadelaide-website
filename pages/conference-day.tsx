@@ -64,9 +64,8 @@ const ConferenceDayPage: NextPage<ConferencePageProps> = ({ sessions }) => {
       </Text>
       <Text>
         Rooms will be clearly marked on the day, as well as screens outside the rooms indicating upcoming sessions.
-        Rooms have no particular theme, attend whichever sessions most interest you at each time slot. Note: We have a
-        mix of 45 minute and 20 minute sessions. If you wish to move around while sessions are in progress then feel
-        free to do so, however take care to be respectful towards our presenters.
+        Rooms have no particular theme, attend whichever sessions most interest you at each time slot. Note: We only have 45-minute sessions.
+        If you wish to move around while sessions are in progress then feel free to do so, however take care to be respectful towards our presenters.
       </Text>
       <h2>Around the Venue</h2>
       <Text>
