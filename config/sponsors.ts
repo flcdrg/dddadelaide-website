@@ -58,13 +58,13 @@ const silverSponsors: Sponsor[] = [
 ]
 
 const coffeeCartSponsors: Sponsor[] = [
-  // {
-  //   id: 'mantel',
-  //   imageUrl: '/static/images/sponsors/mantel.png',
-  //   name: 'Mantel Group',
-  //   type: SponsorType.CoffeeCart,
-  //   url: 'https://mantelgroup.com.au/',
-  // }
+  {
+    id: 'mantel',
+    imageUrl: '/static/images/sponsors/mantel.png',
+    name: 'Mantel Group',
+    type: SponsorType.CoffeeCart,
+    url: 'https://mantelgroup.com.au/',
+  }
 ]
 
 const serviceSponsors: Sponsor[] = []
