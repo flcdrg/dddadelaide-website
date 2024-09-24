@@ -110,7 +110,7 @@ const communityPartners: Sponsor[] = [
     imageUrl: '/static/images/sponsors/tiimely.png',
     name: 'Tiimely',
     type: SponsorType.Community,
-    url: 'https://tiimelyhome.com.au/',
+    url: 'http://tiimely.com/',
   }
 ]
 
