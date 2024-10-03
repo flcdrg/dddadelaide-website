@@ -28,7 +28,7 @@ const presentationSubmissionsOpenFrom = zonedTimeToUtc('2024-08-01T08:00:00', '+
 const presentationSubmissionsOpenUntil = zonedTimeToUtc('2024-09-06T23:59:59', '+09:30')
 const votingOpenFrom = zonedTimeToUtc('2024-09-10T17:00:00', '+09:30')
 const votingOpenUntil = zonedTimeToUtc('2024-09-29T23:59:59', '+09:30')
-const agendaPublishedFrom = zonedTimeToUtc('2024-10-05T17:00:00', '+09:30')
+const agendaPublishedFrom = zonedTimeToUtc('2024-10-05T08:00:00', '+09:30')
 const feedbackOpenFrom = toDate(date)
 const feedbackOpenUntil = endDate
 const importantDates: ImportantDate[] = [
@@ -192,11 +192,15 @@ const Conference: IConference = {
 
   Keynotes: [],
 
-  RoomNames: [],
+  RoomNames: [
+    "Braggs Theatre",
+    "Horace Lamb Theatre",
+    "Flentje Theatre"
+  ],
 
   Livestreams: [],
 
-  // TODO: Figure out what this is from.
+  // We don't need to care about this if ShowNextSessions is false
   SessionGroups: [
     {
       sessions: ['530801'],
