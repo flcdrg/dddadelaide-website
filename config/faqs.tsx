@@ -82,7 +82,7 @@ export default function getFaqs(dates: Dates): FAQ[] {
   Faqs.push({
     Question: 'What about swag?',
     Answer:
-      'Yes, there will be a bunch of swag on offer on the day both from our swag table as well as with the various sponsors that will have booths. We have decided not to offer showbags this year as they often end up resulting in a lot of waste; this way attendees can choose the swag they want. We will have a small number of bags on offer if you need, but it may also be prudent to bring your own bag.',
+      'Yes, there will be swag! Each attendee will be able to collect their swag from the check-in table as they check in, which will come in a small DDD tote bag. Along with this, our sponsors usually have a collection of shiny things at their booths - make sure to stop by for a chat!',
   })
 
   if (Conference.Venue && Conference.Venue.Wifi !== null) {
