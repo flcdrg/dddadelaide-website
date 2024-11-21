@@ -219,7 +219,7 @@ const CodeOfConduct: NextPage = () => {
           <strong>Black:</strong> fine to photograph
         </li>
         <li>
-          <strong>Red:</strong> do not photograph
+          <strong>Orange:</strong> do not photograph
         </li>
       </StyledList>
       <Text>
